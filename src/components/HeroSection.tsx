@@ -96,12 +96,29 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.5 }}
-          className="max-w-2xl text-sm sm:text-base md:text-lg text-gray-400 leading-relaxed"
+          className="max-w-2xl text-sm sm:text-base md:text-lg text-gray-400 leading-relaxed mb-8"
         >
           Engineering intelligent systems, autonomous agents, and production-ready
           GenAI solutions to accelerate complex problem solving and automate
           workflows with high-performance precision.
         </motion.p>
+
+        {/* Action Buttons */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.6 }}
+          className="flex flex-wrap justify-center items-center gap-4"
+        >
+          <a
+            href="/baljinder_cv.pdf"
+            download="Baljinder_Singh_CV.pdf"
+            className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-gradient-to-r from-blue-600 to-teal-500 text-white font-bold tracking-wide hover:from-blue-500 hover:to-teal-400 transition-all shadow-[0_0_20px_rgba(59,130,246,0.4)] hover:shadow-[0_0_30px_rgba(59,130,246,0.6)] hover:-translate-y-1"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Download Resume
+          </a>
+        </motion.div>
 
       </div>
     </section>
