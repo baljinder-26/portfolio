@@ -50,7 +50,7 @@ const projects = [
     subtitle: "Radiology Posture Analysis System",
     description: "Currently building an AI-powered computer vision system that analyzes X-ray positioning to verify correct patient posture. It provides real-time feedback on positioning errors and suggests actionable instructions for correction.",
     tags: ["Computer Vision", "Machine Learning", "Healthcare AI", "Python"],
-    github: "https://github.com/baljinder-26", 
+    github: "https://github.com/abhijay-10/physio", 
     image: "/orthovision_ai.png",
   }
 ];
